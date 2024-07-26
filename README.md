@@ -1,3 +1,7 @@
+## Documentation
+
+[Documentation](https://medium.com/@xayilmaz/how-to-develop-a-super-app-with-react-native-fe18fbe002c5)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
