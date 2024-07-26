@@ -1,5 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, NativeModules } from 'react-native'
+import AppInfo from './app.json'
 
 const { ConnectNativeModule } = NativeModules;
 

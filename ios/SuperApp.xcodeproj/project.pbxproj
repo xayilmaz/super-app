@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SuperAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SuperAppTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-SuperApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SuperApp.a */; };
+		0D7A736A2C5388E6008BF5B5 /* ConnectNativeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A73692C5388E6008BF5B5 /* ConnectNativeModule.m */; };
+		0D7A736D2C538CEA008BF5B5 /* index.ios-1.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D7A736C2C538CEA008BF5B5 /* index.ios-1.bundle */; };
+		0D7A736F2C538DB5008BF5B5 /* index.ios-2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D7A736E2C538DB5008BF5B5 /* index.ios-2.bundle */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -31,6 +34,10 @@
 		00E356EE1AD99517003FC87E /* SuperAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SuperAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperAppTests.m; sourceTree = "<group>"; };
+		0D7A73692C5388E6008BF5B5 /* ConnectNativeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectNativeModule.m; sourceTree = "<group>"; };
+		0D7A736B2C538908008BF5B5 /* ConnectNativeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectNativeModule.h; sourceTree = "<group>"; };
+		0D7A736C2C538CEA008BF5B5 /* index.ios-1.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "index.ios-1.bundle"; sourceTree = "<group>"; };
+		0D7A736E2C538DB5008BF5B5 /* index.ios-2.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "index.ios-2.bundle"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* SuperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SuperApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = SuperApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -111,6 +118,8 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				0D7A736E2C538DB5008BF5B5 /* index.ios-2.bundle */,
+				0D7A736C2C538CEA008BF5B5 /* index.ios-1.bundle */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -118,6 +127,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0D7A73692C5388E6008BF5B5 /* ConnectNativeModule.m */,
+				0D7A736B2C538908008BF5B5 /* ConnectNativeModule.h */,
 				6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */,
 				13B07FAE1A68108700A75B9A /* SuperApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -245,8 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6132EF182BDFF13200BBE14D /* PrivacyInfo.xcprivacy in Resources */,
+				0D7A736D2C538CEA008BF5B5 /* index.ios-1.bundle in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0D7A736F2C538DB5008BF5B5 /* index.ios-2.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D7A736A2C5388E6008BF5B5 /* ConnectNativeModule.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);

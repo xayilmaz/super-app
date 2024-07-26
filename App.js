@@ -62,7 +62,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 25
+    margin: 25,
   },
   content: {
     flex: 1,
