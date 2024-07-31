@@ -15,7 +15,9 @@ export default function App(props) {
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
-          ConnectNativeModule?.closeApp(AppInfo.name);
+          if(AppInfo?.name){
+            ConnectNativeModule?.closeApp(AppInfo?.name);
+          }
         }}>
         <Text style={styles.contentButton}>Close App</Text>
       </TouchableOpacity>
